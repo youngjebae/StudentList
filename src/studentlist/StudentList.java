@@ -18,7 +18,7 @@ public class StudentList {
         
         int[] li=new int[6];
         //array of student objects
-        Student[] studList=new Student[5];
+        Student[] studList=new Student[3];
         Scanner sc=new Scanner(System.in);
         
         for(int i=0;i<studList.length;i++)

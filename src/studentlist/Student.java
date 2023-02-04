@@ -11,6 +11,7 @@ public class Student {
     public Student() {
     }
     
+    private String address;
 
     public Student(String studentName) {
         this.studentName = studentName;
@@ -23,6 +24,14 @@ public class Student {
      */
     public String getStudentName() {
         return studentName;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     /**
